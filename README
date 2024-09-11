@@ -1,0 +1,2 @@
+Compile kernel.cu with:
+nvcc -ptx -std=c++17 -arch=compute_52 kernel.cu
